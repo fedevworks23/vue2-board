@@ -7,7 +7,8 @@
     >
       <header class="logo">
         <router-link to="/app/dashboard">
-          <span class="primary-word">Vue</span>
+          <span class="primary-word" v-if="sidebarStatic">Vue</span>
+          <span class="primary-word" v-else>V</span>
         </router-link>
       </header>
       <h5 class="navTitle first">Navigations</h5>
