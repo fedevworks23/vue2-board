@@ -186,7 +186,14 @@
             <div class="col-auto">
               <ul
                 role="tablist"
-                class="nav nav-pills flex-column card-header h-100 border-bottom-0 rounded-0"
+                class="
+                  nav nav-pills
+                  flex-column
+                  card-header
+                  h-100
+                  border-bottom-0
+                  rounded-0
+                "
                 id="__BVID__704__BV_tab_controls_"
               >
                 <!---->
@@ -321,11 +328,11 @@
 </template>
 
 <script>
-import Widget from "@/components/Widget/Widget";
+// import Widget from "@/components/Widget/Widget";
 
 export default {
   name: "Accordian",
-  components: { Widget },
+  // components: { Widget },
   data() {
     return {};
   },

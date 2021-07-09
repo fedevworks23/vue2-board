@@ -113,10 +113,7 @@
       </b-col>
       <b-col xs="12" lg="4">
         <div class="card border-0">
-          <img
-            src="@/assets/imgs/native-starter.png"
-            class="card-img"
-          /><!---->
+          <img src="@/assets/imgs/native-starter.png" class="card-img" /><!---->
           <div class="card-body">
             <!----><!----><small>Technology</small><br />
             <h4 class="mb mt-xs">React Native Starter</h4>
@@ -136,11 +133,11 @@
 </template>
 
 <script>
-import Widget from "@/components/Widget/Widget";
+// import Widget from "@/components/Widget/Widget";
 
 export default {
   name: "Cards",
-  components: { Widget },
+  // components: { Widget },
   data() {
     return {};
   },
