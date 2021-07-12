@@ -27,7 +27,7 @@
             <b-form-input
               id="search-input"
               placeholder="Search Dashboard"
-              disabled="true"
+              :disabled="true"
             />
           </b-input-group>
         </b-form-group>

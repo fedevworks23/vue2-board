@@ -5,6 +5,11 @@ const uiElements = [
     component: () => import("@/pages/Forms/Inputs"),
   },
   {
+    path: "forms/select",
+    name: "SelectPage",
+    component: () => import("@/pages/Forms/Select"),
+  },
+  {
     path: "forms/textarea",
     name: "TextareaPage",
     component: () => import("@/pages/Forms/Textarea"),

@@ -853,9 +853,5 @@ import Widget from "@/components/Widget/Widget";
 export default {
   name: "Inputs",
   components: { Widget },
-  data() {
-    return {};
-  },
-  computed: {},
 };
 </script>

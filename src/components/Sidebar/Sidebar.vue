@@ -65,16 +65,8 @@
           index="forms"
           :childrenLinks="[
             { header: 'Inputs', link: '/app/forms/inputs' },
+            { header: 'Select', link: '/app/forms/select' },
             { header: 'Textarea', link: '/app/forms/textarea' },
-            { header: 'Buttons', link: '/app/ui/buttons' },
-            { header: 'Cards', link: '/app/ui/cards' },
-            { header: 'Carousel', link: '/app/ui/carousel' },
-            { header: 'Jumbotron', link: '/app/ui/jumbotron' },
-            { header: 'Lists', link: '/app/ui/list-groups' },
-            { header: 'Nav', link: '/app/ui/nav' },
-            { header: 'Navbar', link: '/app/ui/navbar' },
-            { header: 'Progress', link: '/app/ui/progress' },
-            { header: 'Accordian', link: '/app/ui/accordian' },
           ]"
         />
         <NavLink

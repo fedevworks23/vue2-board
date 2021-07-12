@@ -11,7 +11,7 @@
         <h6>Configuration</h6>
         <div class="mt-4">
           <a
-            href="https://flatlogic.com/templates/sing-app-vue"
+            href="#"
             target="_blank"
             role="button"
             class="btn btn-success btn-rounded-f btn-block fs-mini text-white"
@@ -19,7 +19,7 @@
             Purchase
           </a>
           <a
-            href="http://demo.flatlogic.com/sing-app-vue/#/documentation/"
+            href="#"
             target="_blank"
             role="button"
             class="btn btn-primary btn-rounded-f btn-block fs-mini"
@@ -31,7 +31,7 @@
           <a
             role="button"
             target="_blank"
-            href="https://github.com/flatlogic/sing-app-vue-dashboard"
+            href="#"
             class="
               btn btn-outline-default btn-rounded-f
               fs-mini
