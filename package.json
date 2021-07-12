@@ -2,11 +2,12 @@
   "name": "vue2-dashboard",
   "version": "2.1.7",
   "private": true,
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "serve": "vue-cli-service serve --port 3000",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "build": "rm -rf dist && vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
@@ -18,6 +19,7 @@
     "css-loader": "^1.0.1",
     "echarts": "^4.9.0",
     "expose-loader": "^0.7.5",
+    "express": "^4.17.1",
     "font-awesome": "4.7.0",
     "glyphicons-halflings": "^1.9.1",
     "highcharts": "^7.2.2",
@@ -71,5 +73,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "engines": {
+    "node": "14.2.0",
+    "npm": "6.14.4"
+  }
 }
