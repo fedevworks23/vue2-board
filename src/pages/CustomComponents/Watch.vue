@@ -1,17 +1,19 @@
 <template>
-  <div class="watch-wrapper">
-    <div class="watch-dial">
-      <div v-if="includeSeconds">
-        <div class="watch-hours">{{ hours }}</div>
-        <div class="watch-minutes">{{ minutes }}</div>
-      </div>
-      <div v-else>
-        <div class="watch-time">{{ time }}</div>
-        <div class="watch-day">{{ day }}</div>
-        <div class="watch-month">{{ month }}</div>
+  <Widget title="<h6> Watch </h6>" close collapse settings customHeader>
+    <div class="watch-wrapper">
+      <div class="watch-dial">
+        <div v-if="includeSeconds">
+          <div class="watch-hours">{{ hours }}</div>
+          <div class="watch-minutes">{{ minutes }}</div>
+        </div>
+        <div v-else>
+          <div class="watch-time">{{ time }}</div>
+          <div class="watch-day">{{ day }}</div>
+          <div class="watch-month">{{ month }}</div>
+        </div>
       </div>
     </div>
-  </div>
+  </Widget>
 </template>
 
 <script>
