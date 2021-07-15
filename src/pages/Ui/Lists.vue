@@ -6,6 +6,40 @@
     <b-row>
       <b-col xs="12" lg="12">
         <Widget
+          title="<h5>Nestable <span class='fw-semi-bold'>List</span></h5>"
+          close
+          collapse
+          customHeader
+        >
+          <ul id="nestList-ul">
+            <li>
+              <span class="caretSpan">Beverages</span>
+              <ul class="nestedCustom">
+                <li>Water</li>
+                <li>Coffee</li>
+                <li>
+                  <span class="caretSpan">Tea</span>
+                  <ul class="nestedCustom">
+                    <li>Black Tea</li>
+                    <li>White Tea</li>
+                    <li>
+                      <span class="caretSpan">Green Tea</span>
+                      <ul class="nestedCustom">
+                        <li>Sencha</li>
+                        <li>Gyokuro</li>
+                        <li>Matcha</li>
+                        <li>Pi Lo Chun</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </Widget>
+      </b-col>
+      <b-col xs="12" lg="12">
+        <Widget
           title="<h5>Grouped <span class='fw-semi-bold'>Lists</span></h5>"
           close
           collapse
@@ -18,7 +52,16 @@
           </p>
           <div>
             <div
-              class="px-4 py-3 border mb-sm list-element d-flex justify-content-between align-items-center"
+              class="
+                px-4
+                py-3
+                border
+                mb-sm
+                list-element
+                d-flex
+                justify-content-between
+                align-items-center
+              "
               draggable="false"
               style=""
             >
@@ -29,7 +72,16 @@
               <i class="fa fa-times text-muted"></i>
             </div>
             <div
-              class="px-4 py-3 border mb-sm list-element d-flex justify-content-between align-items-center"
+              class="
+                px-4
+                py-3
+                border
+                mb-sm
+                list-element
+                d-flex
+                justify-content-between
+                align-items-center
+              "
               draggable="false"
               style=""
             >
@@ -40,7 +92,16 @@
               <i class="fa fa-times text-muted"></i>
             </div>
             <div
-              class="px-4 py-3 border mb-sm list-element d-flex justify-content-between align-items-center"
+              class="
+                px-4
+                py-3
+                border
+                mb-sm
+                list-element
+                d-flex
+                justify-content-between
+                align-items-center
+              "
               draggable="false"
               style=""
             >
@@ -51,7 +112,16 @@
               <i class="fa fa-times text-muted"></i>
             </div>
             <div
-              class="px-4 py-3 border mb-sm list-element d-flex justify-content-between align-items-center"
+              class="
+                px-4
+                py-3
+                border
+                mb-sm
+                list-element
+                d-flex
+                justify-content-between
+                align-items-center
+              "
               draggable="false"
             >
               <div>
@@ -61,7 +131,16 @@
               <i class="fa fa-times text-muted"></i>
             </div>
             <div
-              class="px-4 py-3 border mb-sm list-element d-flex justify-content-between align-items-center"
+              class="
+                px-4
+                py-3
+                border
+                mb-sm
+                list-element
+                d-flex
+                justify-content-between
+                align-items-center
+              "
               draggable="false"
             >
               <div>
@@ -71,240 +150,6 @@
               <i class="fa fa-times text-muted"></i>
             </div>
           </div>
-        </Widget>
-      </b-col>
-      <b-col xs="12" lg="12">
-        <Widget
-          title="<h5>Nestable <span class='fw-semi-bold'>List</span></h5>"
-          close
-          collapse
-          customHeader
-        >
-          <p classname="fs-mini">
-            There is a scientific theory that you can arrange this list in such
-            way that there will be no more saddness in the whole world. Can you?
-            Touch devices supported
-          </p>
-          <b-row>
-            <b-col xs="12" lg="6">
-              <div class="he-tree tree tree">
-                <div id="tree_604_node_root" class="tree-node">
-                  <!---->
-                  <div class="tree-node-children">
-                    <div id="tree_604_node_Gs8pW" class="tree-node open">
-                      <div
-                        class="tree-node-inner-back"
-                        style="margin-bottom: 10px"
-                      >
-                        <div class="tree-node-inner">
-                          <div>
-                            <div class="d-flex align-items-center">
-                              <!----><span
-                                class="px-4 py-3 border list-element d-flex no-child"
-                                ><div class="drag bg-default px-4 py-3">
-                                  <i class="fa fa-bars"></i>
-                                </div>
-                                <span class="ml">Item 1</span></span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!---->
-                    </div>
-                    <div id="tree_604_node_2IYl8" class="tree-node open">
-                      <div
-                        class="tree-node-inner-back"
-                        style="margin-bottom: 10px"
-                      >
-                        <div class="tree-node-inner">
-                          <div>
-                            <div class="d-flex align-items-center">
-                              <div>
-                                <span class="bg-default border circle mr-sm"
-                                  >-</span
-                                >
-                              </div>
-                              <span class="px-4 py-3 border list-element d-flex"
-                                ><div class="drag bg-default px-4 py-3">
-                                  <i class="fa fa-bars"></i>
-                                </div>
-                                <span class="ml">Item 2</span></span
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="tree-node-children">
-                        <div id="tree_604_node_ImyKR" class="tree-node open">
-                          <div
-                            class="tree-node-inner-back"
-                            style="margin-bottom: 10px; padding-left: 16px"
-                          >
-                            <div class="tree-node-inner">
-                              <div>
-                                <div class="d-flex align-items-center">
-                                  <!----><span
-                                    class="px-4 py-3 border list-element d-flex no-child"
-                                    ><div class="drag bg-default px-4 py-3">
-                                      <i class="fa fa-bars"></i>
-                                    </div>
-                                    <span class="ml">Item 3</span></span
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!---->
-                        </div>
-                        <div id="tree_604_node_FljMo" class="tree-node open">
-                          <div
-                            class="tree-node-inner-back"
-                            style="margin-bottom: 10px; padding-left: 16px"
-                          >
-                            <div class="tree-node-inner">
-                              <div>
-                                <div class="d-flex align-items-center">
-                                  <!----><span
-                                    class="px-4 py-3 border list-element d-flex no-child"
-                                    ><div class="drag bg-default px-4 py-3">
-                                      <i class="fa fa-bars"></i>
-                                    </div>
-                                    <span class="ml">Item 4</span></span
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!---->
-                        </div>
-                        <div id="tree_604_node_UKUEq" class="tree-node open">
-                          <div
-                            class="tree-node-inner-back"
-                            style="margin-bottom: 10px; padding-left: 16px"
-                          >
-                            <div class="tree-node-inner">
-                              <div>
-                                <div class="d-flex align-items-center">
-                                  <div>
-                                    <span class="bg-default border circle mr-sm"
-                                      >-</span
-                                    >
-                                  </div>
-                                  <span
-                                    class="px-4 py-3 border list-element d-flex"
-                                    ><div class="drag bg-default px-4 py-3">
-                                      <i class="fa fa-bars"></i>
-                                    </div>
-                                    <span class="ml">Item 5</span></span
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="tree-node-children">
-                            <div
-                              id="tree_604_node_waJC8"
-                              class="tree-node open"
-                            >
-                              <div
-                                class="tree-node-inner-back"
-                                style="margin-bottom: 10px; padding-left: 32px"
-                              >
-                                <div class="tree-node-inner">
-                                  <div>
-                                    <div class="d-flex align-items-center">
-                                      <!----><span
-                                        class="px-4 py-3 border list-element d-flex no-child"
-                                        ><div class="drag bg-default px-4 py-3">
-                                          <i class="fa fa-bars"></i>
-                                        </div>
-                                        <span class="ml">Item 6</span></span
-                                      >
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <!---->
-                            </div>
-                            <div
-                              id="tree_604_node_aXzWR"
-                              class="tree-node open"
-                            >
-                              <div
-                                class="tree-node-inner-back"
-                                style="margin-bottom: 10px; padding-left: 32px"
-                              >
-                                <div class="tree-node-inner">
-                                  <div>
-                                    <div class="d-flex align-items-center">
-                                      <!----><span
-                                        class="px-4 py-3 border list-element d-flex no-child"
-                                        ><div class="drag bg-default px-4 py-3">
-                                          <i class="fa fa-bars"></i>
-                                        </div>
-                                        <span class="ml">Item 7</span></span
-                                      >
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <!---->
-                            </div>
-                            <div
-                              id="tree_604_node_17aqu"
-                              class="tree-node open"
-                            >
-                              <div
-                                class="tree-node-inner-back"
-                                style="margin-bottom: 10px; padding-left: 32px"
-                              >
-                                <div class="tree-node-inner">
-                                  <div>
-                                    <div class="d-flex align-items-center">
-                                      <!----><span
-                                        class="px-4 py-3 border list-element d-flex no-child"
-                                        ><div class="drag bg-default px-4 py-3">
-                                          <i class="fa fa-bars"></i>
-                                        </div>
-                                        <span class="ml">Item 8</span></span
-                                      >
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <!---->
-                            </div>
-                          </div>
-                        </div>
-                        <div id="tree_604_node_s0yzp" class="tree-node open">
-                          <div
-                            class="tree-node-inner-back"
-                            style="margin-bottom: 10px; padding-left: 16px"
-                          >
-                            <div class="tree-node-inner">
-                              <div>
-                                <div class="d-flex align-items-center">
-                                  <!----><span
-                                    class="px-4 py-3 border list-element d-flex no-child"
-                                    ><div class="drag bg-default px-4 py-3">
-                                      <i class="fa fa-bars"></i>
-                                    </div>
-                                    <span class="ml">Item 9</span></span
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!---->
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </b-col>
-          </b-row>
         </Widget>
       </b-col>
     </b-row>
@@ -318,8 +163,68 @@ export default {
   name: "Carousel",
   components: { Widget },
   data() {
-    return {};
+    return {
+      lists: [
+        {
+          category: "beverages",
+          subCategory: ["Water", "coffee", ["asdsad"]],
+        },
+      ],
+    };
   },
   computed: {},
+  mounted() {
+    var toggler = document.getElementsByClassName("caretSpan");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function () {
+        this.parentElement
+          .querySelector(".nestedCustom")
+          .classList.toggle("active");
+        this.classList.toggle("caret-down");
+      });
+    }
+  },
 };
 </script>
+
+<style lang="scss" scoped>
+ul,
+#nestList-ul {
+  list-style-type: none;
+}
+
+#nestList-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.caretSpan {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caretSpan::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+.nestedCustom {
+  display: none;
+}
+
+.active {
+  display: block;
+  margin-left: 20px;
+}
+</style>

@@ -25,6 +25,21 @@ export default {
     };
   },
   methods: {
+    getImgFileSize(size) {
+      if (size >= 4096) {
+        return "File too Big, please select a file less than 4mb";
+      } else if (size < 2048) {
+        return "File too small, please select a file greater than 2mb";
+      } else {
+        return size + " KB";
+      }
+    },
+    getImgUploadTime() {
+      const date1 = new Date();
+      let hour = date1.getHours();
+      hour = hour > 12 ? hour - 12 : hour;
+      return `${hour}:${date1.getMinutes()}:${date1.getSeconds()}`;
+    },
     upload() {
       const reader = new FileReader();
       if (this.imageFile) {
@@ -32,6 +47,13 @@ export default {
         reader.addEventListener(
           "load",
           () => {
+            const imageInfo = {
+              uploadedTime: this.getImgUploadTime(),
+              type: this.imageFile.type,
+              size: this.getImgFileSize(this.imageFile.size),
+              src: reader.result,
+            };
+            console.log(imageInfo);
             this.$emit("fileSource", reader.result);
           },
           false
