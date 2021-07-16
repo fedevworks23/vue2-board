@@ -6,121 +6,128 @@
     <div>
       <b-row>
         <b-col lg="12" xs="12">
-          <form class="">
-            <legend><strong>Horizontal</strong> form</legend>
-            <div
-              role="group"
-              class="form-row form-group"
-              horizontal=""
-              breakpoint="md"
-            >
-              <label for="normal-field" class="col-2 col-form-label">
-                Username:
-              </label>
-              <div class="col">
-                <input
-                  id="normal-field"
-                  type="text"
-                  placeholder="Enter Username"
-                  class="form-control"
-                  ref="userName"
-                />
-              </div>
-            </div>
-            <div
-              role="group"
-              class="form-row form-group"
-              horizontal=""
-              breakpoint="md"
-            >
-              <label for="normal-field" class="col-2 col-form-label">
-                Email:
-              </label>
-              <div class="col">
-                <input
-                  id="normal-field"
-                  type="email"
-                  placeholder="Enter Email"
-                  class="form-control"
-                  ref="email"
-                />
-              </div>
-            </div>
-            <div
-              role="group"
-              class="form-row form-group"
-              horizontal=""
-              breakpoint="md"
-            >
-              <label for="normal-field" class="col-2 col-form-label">
-                Test Message
-              </label>
-              <div class="col">
-                <input
-                  id="normal-field"
-                  type="testMessage"
-                  placeholder="Enter Message"
-                  class="form-control"
-                  ref="testMessage"
-                />
-              </div>
-            </div>
-
-            <div
-              role="group"
-              class="form-row form-group"
-              horizontal=""
-              breakpoint="md"
-            >
-              <label for="normal-field" class="col-2 col-form-label">
-                Profile Picture
-              </label>
-              <div class="col">
-                <b-form-file
-                  v-model="imageFile"
-                  placeholder="Choose a file or drop it here..."
-                  drop-placeholder="Drop file here..."
-                ></b-form-file>
-                <div class="mt-3">
-                  <button
-                    :class="[
-                      'btn',
-                      !profilePicUpload ? 'btn-primary' : 'btn-secondary',
-                    ]"
-                    @click="upload"
-                  >
-                    Upload
-                  </button>
-                  <button
-                    :class="[
-                      'btn',
-                      'ml-1',
-                      profilePicUpload ? 'btn-primary' : 'btn-secondary',
-                    ]"
-                    @click="(imageFile = []), (profilePicUpload = false)"
-                  >
-                    Reset
-                  </button>
+          <Widget
+            title="<h4>The <span class='fw-semi-bold'>Dynamic Fields</span></h4>"
+            close
+            collapse
+            customHeader
+          >
+            <form class="">
+              <legend><strong>Horizontal</strong> form</legend>
+              <div
+                role="group"
+                class="form-row form-group"
+                horizontal=""
+                breakpoint="md"
+              >
+                <label for="normal-field" class="col-2 col-form-label">
+                  Username:
+                </label>
+                <div class="col">
+                  <input
+                    id="normal-field"
+                    type="text"
+                    placeholder="Enter Username"
+                    class="form-control"
+                    ref="userName"
+                  />
                 </div>
               </div>
-            </div>
-
-            <div
-              role="group"
-              class="form-row form-group"
-              horizontal=""
-              breakpoint="md"
-            >
-              <b-button
-                type="submit"
-                size="sm"
-                class="auth-btn mb-3 col-12"
-                variant="inverse"
-                @click="saveData"
-                >Save Data</b-button
+              <div
+                role="group"
+                class="form-row form-group"
+                horizontal=""
+                breakpoint="md"
               >
-            </div>
-          </form>
+                <label for="normal-field" class="col-2 col-form-label">
+                  Email:
+                </label>
+                <div class="col">
+                  <input
+                    id="normal-field"
+                    type="email"
+                    placeholder="Enter Email"
+                    class="form-control"
+                    ref="email"
+                  />
+                </div>
+              </div>
+              <div
+                role="group"
+                class="form-row form-group"
+                horizontal=""
+                breakpoint="md"
+              >
+                <label for="normal-field" class="col-2 col-form-label">
+                  Test Message
+                </label>
+                <div class="col">
+                  <input
+                    id="normal-field"
+                    type="testMessage"
+                    placeholder="Enter Message"
+                    class="form-control"
+                    ref="testMessage"
+                  />
+                </div>
+              </div>
+
+              <div
+                role="group"
+                class="form-row form-group"
+                horizontal=""
+                breakpoint="md"
+              >
+                <label for="normal-field" class="col-2 col-form-label">
+                  Profile Picture
+                </label>
+                <div class="col">
+                  <b-form-file
+                    v-model="imageFile"
+                    placeholder="Choose a file or drop it here..."
+                    drop-placeholder="Drop file here..."
+                  ></b-form-file>
+                  <div class="mt-3">
+                    <button
+                      :class="[
+                        'btn',
+                        !profilePicUpload ? 'btn-primary' : 'btn-secondary',
+                      ]"
+                      @click="upload"
+                    >
+                      Upload
+                    </button>
+                    <button
+                      :class="[
+                        'btn',
+                        'ml-1',
+                        profilePicUpload ? 'btn-primary' : 'btn-secondary',
+                      ]"
+                      @click="(imageFile = []), (profilePicUpload = false)"
+                    >
+                      Reset
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                role="group"
+                class="form-row form-group"
+                horizontal=""
+                breakpoint="md"
+              >
+                <b-button
+                  type="submit"
+                  size="sm"
+                  class="auth-btn mb-3 col-12"
+                  variant="inverse"
+                  @click="saveData"
+                  >Save Data</b-button
+                >
+              </div>
+            </form>
+          </Widget>
         </b-col>
         <b-col xs="12" lg="12">
           <Widget
