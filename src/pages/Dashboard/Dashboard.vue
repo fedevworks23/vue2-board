@@ -2,11 +2,6 @@
   <div class="dashboard-page">
     <h1 class="page-title">Dashboard</h1>
     <b-row>
-      <b-col md="12" xl="12" sm="6" xs="12">
-        <div class="pb-xlg h-100">
-          <DynamicTable />
-        </div>
-      </b-col>
       <b-col md="6" xl="3" sm="6" xs="12">
         <div class="pb-xlg h-100">
           <Widget class="h-100 mb-0" title="Visits Today" close>
@@ -205,7 +200,6 @@
 import Widget from "@/components/Widget/Widget";
 import BigStat from "./components/BigStat/BigStat";
 import mock from "./mock";
-import DynamicTable from "@/pages/Tables/Dynamic";
 
 import { Chart } from "highcharts-vue";
 
@@ -214,7 +208,6 @@ export default {
   components: {
     Widget,
     BigStat,
-    DynamicTable,
     highcharts: Chart,
   },
   data() {

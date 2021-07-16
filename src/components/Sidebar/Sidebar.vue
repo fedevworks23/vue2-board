@@ -51,6 +51,7 @@
             { header: 'Carousel', link: '/app/ui/carousel' },
             { header: 'Jumbotron', link: '/app/ui/jumbotron' },
             { header: 'Lists', link: '/app/ui/list-groups' },
+            { header: 'TreeViewLists', link: '/app/ui/tree-view-list' },
             { header: 'Nav', link: '/app/ui/nav' },
             { header: 'Navbar', link: '/app/ui/navbar' },
             { header: 'Progress', link: '/app/ui/progress' },
