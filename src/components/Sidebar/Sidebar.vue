@@ -52,6 +52,7 @@
             { header: 'Jumbotron', link: '/app/ui/jumbotron' },
             { header: 'Lists', link: '/app/ui/list-groups' },
             { header: 'TreeViewLists', link: '/app/ui/tree-view-list' },
+            { header: 'DrapDropTreeList', link: '/app/ui/drapDropTreeList' },
             { header: 'Nav', link: '/app/ui/nav' },
             { header: 'Navbar', link: '/app/ui/navbar' },
             { header: 'Progress', link: '/app/ui/progress' },

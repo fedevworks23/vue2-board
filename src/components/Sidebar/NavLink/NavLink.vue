@@ -46,7 +46,8 @@
       </ul>
     </b-collapse>
   </li>
-  <li v-else>
+  <li v-else class="li-childrenLinksLeftBorder">
+    <span class="span-childrenLinksLeftBorder"></span>
     <router-link :to="index !== 'menu' && link">
       {{ header }}
       <sup v-if="label" :class="'text-' + labelColor" class="headerLabel">{{
@@ -108,4 +109,5 @@ export default {
 };
 </script>
 
-<style src="./NavLink.scss" lang="scss" scoped />
+<style src="./NavLink.scss" lang="scss" scoped>
+</style>

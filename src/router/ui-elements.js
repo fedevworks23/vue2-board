@@ -1,5 +1,10 @@
 const uiElements = [
   {
+    path: "ui/drapDropTreeList",
+    name: "DrapDropTreeList",
+    component: () => import("@/pages/Ui/DrapDropTreeList"),
+  },
+  {
     path: "ui/alerts",
     name: "AlertsPage",
     component: () => import("@/pages/Ui/Alerts"),

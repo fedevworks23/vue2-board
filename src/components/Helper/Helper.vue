@@ -6,7 +6,7 @@
         <i class="la la-cog fs-smaller"></i>
       </div>
     </div>
-    <section class="widget theme-helper-content mb-0">
+    <section class="widget mb-0" :class="{ 'theme-helper-content': opened }">
       <div class="widget-body mt-3">
         <h6>Configuration</h6>
         <div class="mt-4">

@@ -153,3 +153,16 @@ a.router-link-active {
     }
   }
 }
+
+
+.li-childrenLinksLeftBorder {
+  display: flex;
+  flex-direction: row;
+
+  .span-childrenLinksLeftBorder {
+    height: auto;
+    width: 1px;
+    background: var(--sidebar-item-active);
+    margin-left: 13px;
+  }
+}
